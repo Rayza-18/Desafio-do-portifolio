@@ -304,7 +304,13 @@ utilize como referência os breakpoints @media abaixo*/
 @media (min-width: 768px) {
 
 /* Menu */
-
+.menu__list__item {
+    display: none;
+}
+#meucontato{
+    display: flex;
+    margin-left: 100%;
+}
 /*title*/
 
 /*Skills*/
@@ -312,30 +318,119 @@ utilize como referência os breakpoints @media abaixo*/
 /*Hobbies*/
 
 /*Experiências acadêmicas*/
-
+.academic__img_pdg {
+    height: 140px;
+}
+.academic__img_FICR {
+    height: 68px;
+    width: 276px;
+}
+.academic__img_alura {
+    height: 136px;
+    width: 183px;
+}
+.academic__courses__list{
+    list-style: none;
+    padding: 10px;
+}
 /*Expeirência profissional*/
-
+.experiencie__box{
+    display: flex;
+    flex-direction: column;
+}
+#codificador {
+    height: 330px;
+    width: 563px;
+}
+#thorpage {
+    height: 314px;
+    width: 588px;
+}
+.experiencie__box_reverse{
+    display: flex;
+    flex-direction: column;;
+}
+#desafioPerfil {
+    height: 437px;
+    width: 612px;
 }
 
+/* contato */
+.formcontato__contacto{
+    margin: 2%;
+    display: flex;
+    justify-content: flex-start;
+} 
+ .formcontato__img {
+    display: none;
+}
+input{
+    width: 135%;
+}
+textarea{
+    width: 135%;
+};
+}
 /*Mobile*/
 @media (min-width: 425px) {
 
 /*Menu*/
-
+.menu__list__item {
+    display: none;
+}
+#meucontato {
+    display: flex;
+    margin-left: 38%;
+    font-size: 10px;
+}
 /*Titulo*/
-
+.title__div {
+    display: flex;
+    margin: 0px 5%;
+    flex-direction: column;
+}
+.title__profile {
+    border-radius: 50%;
+    height: 33%;
+    width: 37%;
+}
 /*Sessão sobre*/
 
 /*Skills*/
-
+.skills__line {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grid: inherit;
+}
 /*Hobbies*/
- 
+ .hobbies__line {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 /*Formação Acadêmica*/
+.academic__courses {
+    display: flex;
+    margin: 0px 5%;
+    flex-direction: column;
+}
 
 /*Experiência Profissional*/
-
+.experiencie__box {
+    display: flex;
+    margin: 10px 5%;
+    flex-direction: column;
+}
+.experiencie__box_reverse {
+    display: flex;
+    flex-direction: column;
+    margin: 22px 0px;
+    justify-content: space-evenly;
+}
  /*Contato*/
-
+ .formcontato__img {
+    display: none;
+}
 /*Footer*/
 
 }
